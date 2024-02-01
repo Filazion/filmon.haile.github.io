@@ -15,8 +15,8 @@ export const ProjectList = [
     title: "Plant Leaf Disease Classification, Detection and pesticide recommendation using Machine learning",
     description:
       "A system that automatically detects plant leaf diseases and recommends pesticide for the detected disease.",
-    tech_stack: ["Python", "Tensorflow", "DeepLearning", "Django", "PyQt"],
-    github_url: "",
+    tech_stack: ["OpenCV-Python", "Tensorflow", "DeepLearning","Image Processing","PIL", "Django", "PyQt"],
+    github_url: "#",
     demo_url: "#",
   },
   {
@@ -24,7 +24,7 @@ export const ProjectList = [
     title: "Early Breast Cancer detection using Convolutional Neural Networks (CNN)",
     description:
       "An AI system that can classify and detect malicious breast tissues using CNN from a mamographic images. The project was trained and tested using local mamographic dataset.",
-    tech_stack: ["CNN", "Python", "TensorFlow", "Image Processing"],
+    tech_stack: ["CNN", "OpenCV-Python", "TensorFlow","PILLOW", "Image Processing"],
     github_url: "#",
     demo_url: "#",
   },
@@ -33,7 +33,7 @@ export const ProjectList = [
     title: "Image Dataset Loading to Quantum Computers with Qiskit.",
     description:
       "This project converts given image dataset to quantum processable data(qubits) by utilizing PCA for dimensionality reduction and initial states for generating qubits. It can analyze the number of PCA components and produce the transformed qubits of an image dataset for a chosen IBM quantum device or simulator. The variance percentage that is being kept by PCA is also given as feedback to the user.",
-    tech_stack: ["Qiskit", "Python", "Jupyter Notebook", "Quantum Mechanics"],
+    tech_stack: ["Qiskit", "Python", "Jupyter Notebook", "Quantum Mechanics","PCA","Q-means"],
     github_url: "#",
     demo_url: "#",
   },
@@ -42,7 +42,7 @@ export const ProjectList = [
     title: "Crop Monitoring System Using Fully Integrated Drone and Software Package",
     description:
       "A project that combines a fully integrated drone system equipped with advanced sensors to collect high-resolution imagery and data from crops and Cutting-edge software processes the collected data to assess crop conditions, detect diseases, monitor growth, and predict yield",
-    tech_stack: ["Python", "Flask", "GIS", "Quadcopters", "OpenCv"],
+    tech_stack: ["Python", "Flask", "GIS", "Quadcopters","Data Analysis", "OpenCv"],
     github_url: "#",
     demo_url: "#",
   },
@@ -51,7 +51,7 @@ export const ProjectList = [
     title: "Driver Drowsiness Detection using Computer Vision.",
     description:
       "This project seeks to enhance driver safety and reduce accidents caused by drowsy driving. we developed an innovative system that employs advanced computer vision techniques and a cutting-edge alert systems to monitor and alert drivers when signs of drowsiness are detected.",
-    tech_stack: ["Python", "OpenCv", "Sensors"],
+    tech_stack: ["Python-OpenCV", "Facial Detection", "Raspberry Pi", "Sensors"],
     github_url: "#",
     demo_url: "#",
   },
